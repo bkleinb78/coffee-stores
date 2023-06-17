@@ -104,6 +104,10 @@
   transform: translateZ(0);
 }
 
+.title{
+  font-size: 5vw;
+}
+
 .logo {
   position: relative;
 }
