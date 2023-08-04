@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+import styles from "../styles/Home.module.css";
+
 import Banner from "../components/banner";
 import Card from "../components/card";
 
@@ -30,16 +31,7 @@ export default function Home() {
             name="DarkHorse Coffee"
             imgUrl="/static/hero-image.png"
             href="/coffee-store/darkhorse"
-          />
-          <Card
-            name="DarkHorse Coffee"
-            imgUrl="/static/hero-image.png"
-            href="/coffee-store/darkhorse"
-          />
-          <Card
-            name="DarkHorse Coffee"
-            imgUrl="/static/hero-image.png"
-            href="/coffee-store/darkhorse"
+            className={styles.card}
           />
         </div>
       </main>
